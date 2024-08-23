@@ -1,0 +1,1019 @@
+MODE: DEVELOPMENT 
+MEDIA_URL: http://191.52.55.15:19003/media/ 
+DATABASE: {'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': PosixPath('/home/laissa.mendes/Documentos/livraria_3info3-4/db.sqlite3')}}
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-03-15T19:47:03.583Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "laissa.mendes2006@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-03-18T17:07:44.090Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Categoria object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-03-18T17:08:48.500Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Categoria object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-03-18T17:09:36.035Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Categoria object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-03-18T17:09:45.789Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Categoria object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-03-18T17:10:02.935Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Categoria object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-03-18T18:07:04.645Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Collen Hover",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-03-18T18:07:48.179Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "J. K. Rooling",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-03-18T18:09:19.262Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Agatha Christie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-03-18T18:09:55.525Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Mauricio de Souza",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-03-18T18:11:21.295Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "J.R.R. Tolkien",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-03-18T18:12:12.614Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Arqueiro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-29T17:43:03.987Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O duque e eu (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-29T17:43:09.601Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O duque e eu (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-08-19T17:33:57.146Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": " - 4680797d-c04e-44df-b518-e6091e25e917",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-08-19T17:34:04.413Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) O duque e eu (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 7,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 7,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 7,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 7,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add editora",
+    "content_type": 8,
+    "codename": "add_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change editora",
+    "content_type": 8,
+    "codename": "change_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete editora",
+    "content_type": 8,
+    "codename": "delete_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view editora",
+    "content_type": 8,
+    "codename": "view_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add autor",
+    "content_type": 9,
+    "codename": "add_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change autor",
+    "content_type": 9,
+    "codename": "change_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete autor",
+    "content_type": 9,
+    "codename": "delete_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view autor",
+    "content_type": 9,
+    "codename": "view_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add livro",
+    "content_type": 10,
+    "codename": "add_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change livro",
+    "content_type": 10,
+    "codename": "change_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete livro",
+    "content_type": 10,
+    "codename": "delete_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view livro",
+    "content_type": 10,
+    "codename": "view_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "editora"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "autor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "livro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bd6v4k30v1m6su5zlgub9n392jsnkbvq",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln4F9uU9JzB2vWucQA5UpxUiLuTSCmgfTPz3iLButS0dp7TSOIilDj9bgj5yW0H9IB2n2Se2jKPKHdFHrTL20T8uh7u30GFXrcatfaU9YAO2GA2FNmA13YwthTF52iYHSkCzWjzZkWHNgSlvfGxBBCfL_4NOGA:1rlDVg:bF_GUQaPCRAOB3zzGZT_iU3RnSeEAcaAL5p8Qh3BPSE",
+    "expire_date": "2024-03-29T19:46:32.461Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ipaajyqm4yj8u9x63zxts6c1o0tm0s6q",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUVNU8cWIztniJzEJgXUSk07Ie4OlTrA-t97_2Uib2uNW5MljsWcjTOn3y1xfsi0g3Ln6TbbPE_rMia7K_agzV7nIs_L4f4dVG71WwuRYwKCPksPim7oECEoK4nvSRM6RK8ekmZySZADQOdpIA2AGcz7A818Nzo:1r55l9:NaiWve-J5cSB6Hz0QGGId5Wqe7YbrnyIETdcYUZFnW8",
+    "expire_date": "2023-12-04T15:00:23.470Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tna4ja2228om1hkoq7plubpngfozhag9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHC8HTpvt9AGAakaiAp7cr479qkC93ec859sRC3tYZt5CXMxC5MsNPvhjE9ctsB3WO7dZ56W5cZ-a7wgw4-dcrP6-H-HdQ46reWSiSy4J1RUvskCKQAr20sZ29RC-mLLeQwo1EA2kmHzhNGY7IWNgF7fwC2BDb9:1sg6De:5no9Uxrbfw9EX67XdMcCHkfscVphqmFI-NKcZ_27tzY",
+    "expire_date": "2024-09-02T17:31:02.720Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x2tn5gnwiwb70qgy56lq9v81pf9cun48",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln4F9uU9JzB2vWucQA5UpxUiLuTSCmgfTPz3iLButS0dp7TSOIilDj9bgj5yW0H9IB2n2Se2jKPKHdFHrTL20T8uh7u30GFXrcatfaU9YAO2GA2FNmA13YwthTF52iYHSkCzWjzZkWHNgSlvfGxBBCfL_4NOGA:1sYUNu:vpJ-XcmgdVWAdB3oAHMZqAwPNRj6Nd7N9IUinRJnSUQ",
+    "expire_date": "2024-08-12T17:42:10.544Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yrgjxhgq7cndw1qf834w14ust4iklwk9",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln4F9uU9JzB2vWucQA5UpxUiLuTSCmgfTPz3iLButS0dp7TSOIilDj9bgj5yW0H9IB2n2Se2jKPKHdFHrTL20T8uh7u30GFXrcatfaU9YAO2GA2FNmA13YwthTF52iYHSkCzWjzZkWHNgSlvfGxBBCfL_4NOGA:1rmGah:7bDPKbi_ncYlha6nYGkfA-fpQ1Qe9JAwTSwkk4CFm5E",
+    "expire_date": "2024-04-01T17:16:03.840Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "4680797d-c04e-44df-b518-e6091e25e917",
+    "public_id": "c5ea4f18-ca98-4fea-9aba-822490038240",
+    "file": "images/c5ea4f18-ca98-4fea-9aba-822490038240.jpg",
+    "description": "",
+    "uploaded_on": "2024-08-19T17:33:57.145Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$BMXUr5TSQ3cMP98mGrosIc$t/sM38GHnCU4+VSx/pPyiejjPlqRQNDoLo0rgVzH5Pw=",
+    "last_login": "2024-08-19T17:31:02.627Z",
+    "is_superuser": true,
+    "email": "a@a.com",
+    "name": "Super User",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$NMi02N020PkdpVzt4Qxbd1$NlwO9HJLzBx9xOJrpt3rm7r/7Vz/Q3mJanEuu8eXX8Y=",
+    "last_login": null,
+    "is_superuser": true,
+    "email": "laissa.mendes2006@gmail.com",
+    "name": "Laíssa Mendes",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "Romance"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "Desenvolvimento Web III"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "Redes de Computadores"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "Ficção"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 5,
+  "fields": {
+    "descricao": "Fantasia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 6,
+  "fields": {
+    "descricao": "Desenvolvimento para dispositívos Móveis"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 7,
+  "fields": {
+    "descricao": "Banco de Dados"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 1,
+  "fields": {
+    "nome": "Arqueiro",
+    "site": "https://www.editoraarqueiro.com.br/",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 2,
+  "fields": {
+    "nome": "Editora Becalete",
+    "site": "https://www.editorabecalete.com.br/?gclid=Cj0KCQjwwYSwBhDcARIsAOyL0fiE8-91Z4sM4YnNgqgdDgA0lm68XK0xMBy1_mrmYl-U3CnVqy5zgAwaAgyEEALw_wcB",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 3,
+  "fields": {
+    "nome": "Aleph",
+    "site": "https://editoraaleph.com.br/?gad_source=1&gclid=Cj0KCQjwwYSwBhDcARIsAOyL0fiiDGnQDIDJOqAynfviRkWBSqdK9JMVZUhyAzjm0loFTUo7UjLc3QgaAgB1EALw_wcB",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 4,
+  "fields": {
+    "nome": "Intrinseca",
+    "site": "https://intrinseca.com.br/",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 5,
+  "fields": {
+    "nome": "Rocco",
+    "site": "https://rocco.com.br/",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 6,
+  "fields": {
+    "nome": "Darkside Books",
+    "site": "https://www.darksidebooks.com.br/Crime%20Scene?gad_source=1&gclid=Cj0KCQjwwYSwBhDcARIsAOyL0fi0d1FKRNEvVrSvA3NFkmHlF5iIKtl-jA_hOk6GI69sEx45Uprg-T8aAtyKEALw_wcB",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 7,
+  "fields": {
+    "nome": "Grupo Editorial Record",
+    "site": "https://www.record.com.br/",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 8,
+  "fields": {
+    "nome": "Sextante",
+    "site": "https://sextante.com.br/",
+    "email": null,
+    "cidade": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 1,
+  "fields": {
+    "nome": "Collen Hover",
+    "email": "collen.huver@gmail.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 2,
+  "fields": {
+    "nome": "J. K. Rooling",
+    "email": "j.k.rooling@gmail.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 3,
+  "fields": {
+    "nome": "Agatha Christie",
+    "email": "agatha.christie@gmail.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 4,
+  "fields": {
+    "nome": "Mauricio de Souza",
+    "email": "mauricio.de.souza@gmail.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 5,
+  "fields": {
+    "nome": "J.R.R. Tolkien",
+    "email": "j.r.r.tolkien@gmail.com"
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "O duque e eu",
+    "isbn": null,
+    "quantidade": 1,
+    "preco": "50.00",
+    "categoria": 1,
+    "editora": null,
+    "capa": null,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 2,
+  "fields": {
+    "titulo": "O duque e eu",
+    "isbn": null,
+    "quantidade": 1,
+    "preco": "50.00",
+    "categoria": null,
+    "editora": 1,
+    "capa": 1,
+    "autores": []
+  }
+}
+]

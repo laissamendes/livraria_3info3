@@ -13,7 +13,7 @@ class Livro(models.Model):
     preco = models.DecimalField(max_digits=7, decimal_places=2, default=0, null=True, blank=True, verbose_name="Preço")
     categoria = models.ForeignKey(Categoria, on_delete=models.PROTECT, related_name="livros", blank=True, null=True)
     editora = models.ForeignKey(Editora, on_delete=models.PROTECT, related_name="livros", blank=True, null=True)
-    autor = models.ManyToManyField(Autor, related_name="livros", blank=True)
+    autores = models.ManyToManyField(Autor, related_name="livros", blank=True)
     capa = models.ForeignKey(Image, related_name="+", on_delete=models.CASCADE, null=True, blank=True, default=None,)
 
     def __str__(self):
