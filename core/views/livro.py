@@ -1,12 +1,23 @@
+from django.shortcuts import get_object_or_404
+
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import status
+from rest_framework.decorators import action
+from rest_framework.filters import OrderingFilter, SearchFilter
+from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
 from core.models import Livro
-from core.serializers import LivroDetailSerializer, LivroSerializer, LivroListSerializer
+from core.serializers import LivroDetailSerializer, LivroListSerializer, LivroSerializer
 
 
 class LivroViewSet(ModelViewSet):
-    queryset = Livro.objects.all()
-    serializer_class = LivroSerializer
+    queryset = Livro.objects.order_by("-id")
+    filter_backends = [DjangoFilterBackend, OrderingFilter, SearchFilter]
+    filterset_fields = ["categoria__descricao", "editora__nome"]
+    search_fields = ["titulo"]
+    ordering_fields = ["titulo", "preco"]
+    ordering = ["titulo"]
 
     def get_serializer_class(self):
         if self.action == "list":
@@ -14,7 +25,7 @@ class LivroViewSet(ModelViewSet):
         elif self.action == "retrieve":
             return LivroDetailSerializer
         return LivroSerializer
-    
+
     @action(detail=True, methods=["patch"])
     def alterar_preco(self, request, pk=None):
         # Busca o livro pelo ID usando self.get_object()
